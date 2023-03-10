@@ -6,7 +6,7 @@ import { getApiConfiguration, getGenres } from './store/homeSlice';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from './pages/home/home';
-import NotFound from './pages/404/Notfound404';
+import NotFound from './pages/404/PageNotFound';
 import Details from './pages/details/details';
 import Explore from './pages/explore/explore';
 import SearchResults from './pages/searchRedults/searchResults';
